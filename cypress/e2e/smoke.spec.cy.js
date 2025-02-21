@@ -23,12 +23,13 @@ describe('Smoke Tests', () => {
     const { paymentDetails } = this.checkoutData;
     const { contactDetails, filePath } = this.contactUsData;
 
-    // Smoke Test 1: Login
+    // Smoke Test 1: Signup
+
+    // Smoke Test 2: Login and product category
     LoginActions.loginSignUpIcon();
     LoginActions.fillLoginForm(validUser.email, validUser.password);
     LoginActions.checkLogoutButton();
 
-    // Smoke Test 2: select Product Category
     ProductCategoryActions.navigateToProductsPage();
     ProductCategoryActions.navigateToCategory(menCategory.categoryName);
     ProductCategoryActions.selectSubCategory(menCategory.subCategoryNumber);

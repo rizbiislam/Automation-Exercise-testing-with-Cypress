@@ -1,4 +1,4 @@
-import ContactUsActions from '../../pages/contactUsPage/contactUsActions';
+import ContactUsActions from '../pages/contactUsPage/contactUsActions';
 
 describe('Contact Us Form Submission Tests', () => {
   beforeEach(() => {

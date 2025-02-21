@@ -1,5 +1,5 @@
-import ProductCategoryActions from '../../pages/productCategoryPage/productCategoryActions';
-import catagoryData from '../../fixtures/productCategoryData.json'
+import ProductCategoryActions from '../pages/productCategoryPage/productCategoryActions';
+import catagoryData from '../fixtures/productCategoryData.json'
 
 describe('Product Category Tests', () => {
   beforeEach(() => {

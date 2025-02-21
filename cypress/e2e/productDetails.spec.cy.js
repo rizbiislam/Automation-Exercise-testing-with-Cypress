@@ -1,5 +1,5 @@
-import ProductCategoryActions from '../../pages/productCategoryPage/productCategoryActions';
-import ProductDetailsActions from '../../pages/productDetailsPage/productDetailsActions';
+import ProductCategoryActions from '../pages/productCategoryPage/productCategoryActions';
+import ProductDetailsActions from '../pages/productDetailsPage/productDetailsActions';
 
 describe('Product Details Tests', () => {
   beforeEach(() => {
