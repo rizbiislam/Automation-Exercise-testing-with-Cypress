@@ -1,0 +1,9 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+cypress/reports/

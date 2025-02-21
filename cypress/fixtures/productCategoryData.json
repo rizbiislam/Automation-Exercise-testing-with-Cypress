@@ -1,0 +1,14 @@
+{
+    "menCategory": {
+      "categoryName": "Men",
+      "subCategoryName": "Jeans ",
+      "subCategoryNumber": "6",
+      "expectedHeader": "Men - Jeans Products"
+    },
+    "womenCategory": {
+      "categoryName": "Women",
+      "subCategoryName": "Dress",
+      "subCategoryNumber": "1",
+      "expectedHeader": "Women - Dress Products"
+    }
+}
