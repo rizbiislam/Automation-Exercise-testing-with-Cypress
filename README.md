@@ -21,9 +21,7 @@ Modular Structure: Organized test suites for unitTesting, smoke, sanity, and reg
 CI/CD Ready: Seamlessly integrates with GitHub Actions for continuous testing.
 Cross-Platform: Runs on Windows, macOS, and Linux.
 Folder Structure 📁
-plaintext
-Copy
-Edit
+```bash
 cypress-framework/
 ├── .github/
 │   └── workflows/
@@ -72,7 +70,8 @@ cypress-framework/
 │   └── screenshots/
 ├── cypress.config.js
 ├── package.json
-└── README.md                    # Documentation
+└── README.md
+```
 Prerequisites 🔧
 Before running the tests, ensure you have the following installed:
 
@@ -80,84 +79,76 @@ Node.js: Download from nodejs.org
 Git: Download from git-scm.com
 Setup ⚙️
 Clone the Repository:
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/rizbiislam/Automation-Exercise-testing-with-Cypress.git
 cd cypress-framework
+```
 Install Dependencies:
-bash
-Copy
-Edit
+```bash
 npm install
+```
 Run Cypress:
 Interactive Mode:
-bash
-Copy
-Edit
+```bash
 npx cypress open
+```
 Headless Mode:
-bash
-Copy
-Edit
+```bash
 npx cypress run
+```
 Running Tests 🧪
 Test Suites
 Smoke Tests: Quick tests for critical functionalities.
-bash
-Copy
-Edit
+```bash
 npx cypress run --spec "cypress/e2e/smoke.spec.cy.js"
+```
 Sanity Tests: Focused tests for specific areas.
 bash
 Copy
 Edit
 npx cypress run --spec "cypress/e2e/sanity.spec.cy.js"
 Regression Tests: Comprehensive tests for overall functionality.
-bash
-Copy
-Edit
+```bash
 npx cypress run --spec "cypress/e2e/regression.spec.cy.js"
+```
 Individual Tests
 Run a specific test file:
 
-bash
-Copy
-Edit
+```bash
 npx cypress run --spec "cypress/e2e/login.spec.cy.js"
+```
 CI/CD Integration 🤖
 The framework is pre-configured for CI/CD using GitHub Actions. The workflow file located at .github/workflows/cypress-tests.yml automatically triggers tests on every push or pull request to the main branch.
 
 Test Data 📊
 Test data is maintained in JSON files within the cypress/fixtures/ folder. Update these files as needed:
-
+```bash
 loginData.json: Login credentials.
 signupData.json: Signup user details.
 productCategoryData.json: Product category info.
 productDetailsData.json: Product details.
 checkoutData.json: Checkout and payment info.
 contactUsData.json: Contact Us form details.
+```
 Page Object Model (POM) 📄
 This framework utilizes the Page Object Model to structure UI interactions. Each page module includes:
-
+```bash
 Locators: Defined in *Locators.js files.
 Actions: Defined in *Actions.js files.
+```
 Contributing 🤝
 Create a New Branch:
-bash
-Copy
-Edit
+```bash
 git checkout -b feature/your-feature-name
+```
 Commit Your Changes:
-bash
-Copy
-Edit
-git commit -m "Add your message here"
+```bash
+git commit -m "Version 1.2"
+```
 Push the Branch:
-bash
-Copy
-Edit
+```bash
 git push origin feature/your-feature-name
+```
 Open a Pull Request
 License 📜
 This project is licensed under the ISC License. See the LICENSE file for details.
