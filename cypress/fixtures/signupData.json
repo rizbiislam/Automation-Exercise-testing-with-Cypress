@@ -1,7 +1,7 @@
 {
   "validUser": {
     "name": "Johnny Doe",
-    "email": "johnydoe125555@example.com",
+    "email": "johnnydoe125555@example.com",
     "password": "Password123",
     "dob": {
       "day": "15",
